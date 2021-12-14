@@ -1,3 +1,5 @@
 o git faz snapshots das alterações dos arquivos
 git hub é um cloud para armazenar os arquivos
+hash é um codigo gerado para cada versão q e feita pos o add
 teste
+teste 2
