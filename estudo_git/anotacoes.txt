@@ -12,3 +12,7 @@ branch são marcações em versões comitadas, ou seja pode ser feita uma modifi
 
 git checkout -b(cria o branch) "nomedobranch"
 git branch -D "nomedobranch"
+
+git config --global alias."o alias em si" "comando que vc qr tornar alias"
+
+git tag -a 1.0.0(nomeia as versões dos codigos) -m "mensagem que você deseja"
