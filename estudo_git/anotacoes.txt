@@ -1,3 +1,9 @@
 o git faz snapshots das alterações dos arquivos
 git hub é um cloud para armazenar os arquivos
 hash é um codigo gerado para cada versão q e feita pos o add
+
+git add . para "salvar" os arquivos ou colocar em modo staged
+git commit -m(para novo arquivo)||-am(para arquivo existente) para descrever a qual a modificação do arquivo que está sendo feito o upload do arquivo
+git checkout "nomedoarquivo" irá voltar para a ultima versão ou seja voltar a versão anterior salva daquele arquivo
+
+git push -u origin main = para enviar os arquivos para o cloud apos o commit
