@@ -7,3 +7,8 @@ git commit -m(para novo arquivo)||-am(para arquivo existente) para descrever a q
 git checkout "nomedoarquivo" irá voltar para a ultima versão ou seja voltar a versão anterior salva daquele arquivo
 
 git push -u origin main = para enviar os arquivos para o cloud apos o commit
+
+branch são marcações em versões comitadas, ou seja pode ser feita uma modificação num branch de uma versão enquanto ou pessoa mexe no master("principal")
+
+git checkout -b(cria o branch) "nomedobranch"
+git branch -D "nomedobranch"
