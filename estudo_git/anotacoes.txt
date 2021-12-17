@@ -10,8 +10,8 @@ git push -u origin main = para enviar os arquivos para o cloud apos o commit
 
 branch são marcações em versões comitadas, ou seja pode ser feita uma modificação num branch de uma versão enquanto ou pessoa mexe no master("principal")
 
-git checkout -b(cria o branch) "nomedobranch"
-git branch -D "nomedobranch"
+git checkout -b(cria o branch) "nomedobranch" e trocar entre as branch 
+git branch -D "nomedobranch" para deletar
 
 git config --global alias."o alias em si" "comando que vc qr tornar alias"
 
