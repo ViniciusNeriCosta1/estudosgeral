@@ -19,7 +19,7 @@ git tag -a 1.0.0(nomeia as versões dos codigos) -m "mensagem que você deseja"
 
 chave ssh é uma maneira de autenticação no servidor(github), 
 
-git clone = baixa um repositorio ja criado, o link para fazer o clone do repositorio está no github em "Code"
+git clone <link> = baixa um repositorio ja criado, o link para fazer o clone do repositorio está no github em "Code"
 
 git pull = serve para baixar as informações de algum outro repositorio
 
