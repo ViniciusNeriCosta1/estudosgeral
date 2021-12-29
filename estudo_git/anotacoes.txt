@@ -26,3 +26,5 @@ git pull = serve para baixar as informações de algum outro repositorio
 git reset <commit> = refaz o repositorio a partir de tal commit
 
 git rebase <branch> =  aconselhavel para ajuntar branch
+
+git blame <nomedoarquiv> =  mostrar as alterações nos arquivos
