@@ -1,15 +1,22 @@
-function imprimirSoma(a,b){
+//Armazena uma funcao em uma variavel
+const imprimirSoma =  function (a,b) {
     console.log(a+b)
 }
-imprimirSoma(2)
-imprimirSoma(2,3)
-imprimirSoma(2,3,4)
-imprimirSoma()
 
-function soma(a,b = 1) {
+imprimirSoma(2,3)
+
+//Armazena  uma funcao arrow em uma variavel
+const soma = (a,b) =>{
     return a+b
 }
 
 console.log(soma(2,3))
-console.log(soma(2))
-console.log(soma())
+
+//retorno implicito
+
+const subtracao = (a,b) => a-b
+
+console.log(subtracao(3,2))
+
+const imprimir2 = a => console.log(a)
+imprimir2('legal')
