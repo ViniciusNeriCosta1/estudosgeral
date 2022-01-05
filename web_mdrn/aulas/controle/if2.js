@@ -8,7 +8,7 @@ teste1(6)
 teste1(8)
 
 function teste2(num){
-    if(num>7);//if finaliza no ponto e virgula por isso executa
+    if(num>7);//if finaliza no ; por isso executa
     {
         console.log(num)
     }
