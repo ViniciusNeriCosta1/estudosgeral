@@ -31,4 +31,4 @@ git rebase <branch> =  aconselhavel para ajuntar branch
 
 git blame <nomedoarquiv> =  mostrar as alterações nos arquivos
 
-teste
+teste1
