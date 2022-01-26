@@ -5,4 +5,6 @@ function fun1(){ }
 const fun2 = function() { }
 
 // Armazenar uma funcao num array
-const array = [function(a,b) {return a + b }, fun1, fun2]
+const array = [function(a,b) {return a + b }, fun1, fun2+]
+
+a
