@@ -1,0 +1,57 @@
+body {
+    font-family: 'Dev Moeda',monospace;
+    min-height: 200px;
+  }
+  .wallpaper {
+    height: 400px;
+    size: 50vh;
+    position: relative;
+    bottom: 9px;
+  
+  }
+
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 45vh;
+  }
+  .conversor {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    right: 100px;
+    padding: 10px;
+    height: 10vh;
+  }
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .valor-dolar {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  .valor-real {
+    color: #ffffff;
+    margin-top: 5px;
+    position: relative;
+    right: 132px;
+  }
+  .resultadoReal {
+    color: #ffffff;
+    margin-top: 5px;
+    position: relative;
+    bottom: 34px;
+    right: 15px
+  }
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
