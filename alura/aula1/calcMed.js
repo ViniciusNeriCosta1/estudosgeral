@@ -6,3 +6,4 @@ function conversao(){
     
     resultado.innerHTML = parseFloat((dolarNumber).toFixed(2))
   }
+  

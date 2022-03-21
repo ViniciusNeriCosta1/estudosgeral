@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+    <head>
+        <title>Algoritmo</title>
+    </head>
+    <body>
+        <table style="width:100%">
+            <tr>
+                <th>Calculadora 1</th>
+                <th>Calculadora 2</th>
+            </tr>
+            <tr>
+                <th>
+                    <p>Digite o primeiro valor: <input type="number" id="valor1"></p>
+                    <p>Digite a operação: <input type="text" id="oper"></p>
+                    <p>Digite o segundo valor: <input type="number" id="valor2"></p>
+                    <p id="result"></p>
+                    <input type="button" value="Calcular" id="botao">
+                </th>
+                <th>
+                    <p id="paragrafo2">Resultado</p>
+                    <button onclick="botao2()">Calcular</button>
+                </th>
+            </tr>
+            <tr>
+                <th>Calcular fatorial</th>
+                <th>Verificar Idade</th>
+            </tr>
+            <tr>
+                <th>
+                    <p id="paragrafo3">Resultado</p>
+                    <button onclick="fator()">Fatorar</button>
+                </th>
+                <th>
+                    <p id="paragrafo4">Verificar</p>
+                    <button onclick="validade()">Fatorar</button>
+                </th>
+            </tr>
+            <tr>
+                <th>Demonstração loop</td>
+            </tr>
+            <tr>
+                <th>
+                <p id="paragrafo5">Resultado</p>
+                <button onclick="soma()">Maioridade</button>
+                </th>
+            </tr>
+        </table>    
+    </body>
+    <script>
+        let botao = window.document.getElementById('botao')
+        botao.addEventListener('click', function(e){
+            const valor1 = window.document.getElementById('valor1')
+            const valor2 = window.document.getElementById('valor2')
+            const oper = window.document.getElementById('oper')
+            console.log(valor1.value, valor2.value, oper.value);
+    })
+    </script>
+    <script src="../backEnd/calculadora.js"></script>
+    <script src="../backEnd/fatorial.js"></script>
+    <script src="../backEnd/idade.js"></script>
+    <script src="../backEnd/loop.js"></script>
+</html>
