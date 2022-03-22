@@ -1,11 +1,13 @@
 function botao3(){
-    const valor1 = window.document.getElementById('valor1')
-    const valor2 = window.document.getElementById('valor2')
-    const oper = window.document.getElementById('oper')
-    console.log(valor1.value, valor2.value, oper.value)
+    const valor1 = window.document.getElementById('valor1').value
+    const valor2 = window.document.getElementById('valor2').value
+    const oper = window.document.getElementById('oper').value
+    let resultado
+    //console.log(valor1.value, valor2.value, oper.value)
+    //debugger
     if(oper == '+'){
-        console.log(valor1.value, valor2.value, oper.value)
-        const resultado = parseInt(valor1) + parseInt(valor2)
+        //console.log(valor1.value, valor2.value, oper.value)
+        resultado = parseInt(valor1) + parseInt(valor2)
     }else if (oper == "-"){
         resultado = parseInt(valor1) - parseInt(valor2)
     }else if(oper == "*"){
@@ -16,12 +18,10 @@ function botao3(){
         alert("Operador invalido")
     }
 
-    /*botao.addEventListener('click', function(e){
-        console.log(valor1, valor2);
-    })
-    let result = window.document.getElementById('resultado').innerHTML
+    //debugger
+    //let result = window.document.getElementById('resultado').innerText
 
-    document.getElementById("paragrafo1").innerHTML = resultado*/
+    document.getElementById("result").innerHTML = resultado
 }
 
 function botao2(){
