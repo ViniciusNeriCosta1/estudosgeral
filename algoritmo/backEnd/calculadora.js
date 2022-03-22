@@ -1,8 +1,8 @@
-function botao3(){
-    const valor1 = window.document.getElementById('valor1').value
-    const valor2 = window.document.getElementById('valor2').value
-    const oper = window.document.getElementById('oper').value
-    let resultado
+function botao(){
+    var valor1 = window.document.getElementById('valor1').value
+    var valor2 = window.document.getElementById('valor2').value
+    var oper = window.document.getElementById('oper').value
+    var resultado
     if(oper == '+'){
         resultado = parseInt(valor1) + parseInt(valor2)
     }else if (oper == "-"){
@@ -15,14 +15,15 @@ function botao3(){
         alert("Operador invalido")
     }
 
-    document.getElementById("result").innerHTML = resultado
+    document.getElementById("paragrafo1").innerHTML = resultado
 }
 
 function botao2(){
-    valor1 = prompt("Digite o primeiro valor: ")
-    oper = prompt("Digite a operação: ")
-    valor2 = prompt("Digite o segundo valor: ")
-    switch(oper){
+    var valor1 = window.document.getElementById('valor1').value
+    var valor2 = window.document.getElementById('valor2').value
+    var oper = window.document.getElementById('oper').value
+    var resultado
+        switch(oper){
         case "+":
             resultado = parseInt(valor1) + parseInt(valor2)
         break;
@@ -38,5 +39,5 @@ function botao2(){
         default:
             alert ("Operador invalido")
     }
-    document.getElementById("paragrafo2").innerText = resultado
+    document.getElementById("paragrafo2").innerHTML = resultado
 }
