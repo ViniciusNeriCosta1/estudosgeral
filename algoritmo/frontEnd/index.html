@@ -20,7 +20,7 @@
                     <p>Digite a operação: <input type="text" id="oper"></p>
                     <p>Digite o segundo valor: <input type="number" id="valor2"></p>
                     <p id="result"></p>
-                    <input type="button" value="Calcular" id="botao">
+                    <input type="button" value="Calcular" onclick="botao3()">
                 </th>
                 <th>
                     <p id="paragrafo2">Resultado</p>
@@ -52,15 +52,6 @@
             </tr>
         </table>    
     </body>
-    <script>
-        let botao = window.document.getElementById('botao')
-        botao.addEventListener('click', function(e){
-            const valor1 = window.document.getElementById('valor1')
-            const valor2 = window.document.getElementById('valor2')
-            const oper = window.document.getElementById('oper')
-            console.log(valor1.value, valor2.value, oper.value);
-    })
-    </script>
     <script src="../backEnd/calculadora.js"></script>
     <script src="../backEnd/fatorial.js"></script>
     <script src="../backEnd/idade.js"></script>

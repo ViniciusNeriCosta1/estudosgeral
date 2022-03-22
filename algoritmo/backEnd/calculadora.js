@@ -2,13 +2,10 @@ function botao3(){
     const valor1 = window.document.getElementById('valor1')
     const valor2 = window.document.getElementById('valor2')
     const oper = window.document.getElementById('oper')
-    let botao = window.querySelection('#botao')
-    console.log(valor1).value
-    console.log(oper).value
-    if(oper == "+"){
-        alert("alerta1")
+    console.log(valor1.value, valor2.value, oper.value)
+    if(oper == '+'){
+        console.log(valor1.value, valor2.value, oper.value)
         const resultado = parseInt(valor1) + parseInt(valor2)
-        alert("alerta2")
     }else if (oper == "-"){
         resultado = parseInt(valor1) - parseInt(valor2)
     }else if(oper == "*"){
@@ -19,12 +16,12 @@ function botao3(){
         alert("Operador invalido")
     }
 
-    botao.addEventListener('click', function(e){
+    /*botao.addEventListener('click', function(e){
         console.log(valor1, valor2);
     })
-    //let result = window.document.getElementById('resultado').innerHTML
+    let result = window.document.getElementById('resultado').innerHTML
 
-    //document.getElementById("paragrafo1").innerHTML = resultado
+    document.getElementById("paragrafo1").innerHTML = resultado*/
 }
 
 function botao2(){
