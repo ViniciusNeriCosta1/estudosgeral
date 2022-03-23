@@ -1,10 +1,9 @@
-var valor, fatorial, contador;
-
 function fator(){
-    valor = prompt("Digite o numero para calcular o fatorial: ")
+    var valor = window.document.getElementById('valor').value
+    var fatorial, contador
     fatorial =1 
     for(contador=1;contador<=valor;contador++){
         fatorial = fatorial * contador
     }
-    document.getElementById("paragrafo3").innerText = "O fatorial de " + valor + " e: " + fatorial
+    document.getElementById("paragrafo3").innerText = "O fatorial de " + valor + " é: " + fatorial
 }
