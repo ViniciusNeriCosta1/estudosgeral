@@ -1,12 +1,13 @@
-var valor1, valor2, sair;
-
 function soma(){
+    var valor3 = window.document.getElementById('valor3').value
+    var valor4 = window.document.getElementById('valor4').value
+    var sair = window.document.getElementById('sair').value
+    var resultado
     do{
-        valor1=prompt("Digite o primeiro valor: ")
-        valor2=prompt("Digite o segundo valor: ")
-        document.getElementById("paragrafo5").innerText = "Resultado " + (parseInt(valor1) + parseInt(valor2))
-        sair=prompt("Deseja sair? S/N ")
+        console.log(valor3)
+        resultado = (parseInt(valor3) + parseInt(valor4))
+        console.log(resultado)
+        document.getElementById("paragrafo5").innerHTML = "Resultado " + resultado
     }while(sair != "S"){
-
     }
 }
