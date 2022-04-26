@@ -1,65 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <head>
         <title>Algoritmo</title>
     </head>
     <body>
-        <main  id="main">
-            <div class="row section featured topspace">
-            <table style="width:100%">
-                <tr>
-                    <th>Calculadora 1</th>
-                    <th>Calculadora 2</th>
-                </tr>
-                <tr>
-                    <th>
-                        <p>Digite o primeiro valor: <input type="number" id="valor1"></p>
-                        <p>Digite a operação: <input type="text" id="oper"></p>
-                        <p>Digite o segundo valor: <input type="number" id="valor2"></p>
-                        <p id="paragrafo1">Resultado</p>
-                        <input type="button" value="Calcular" onclick="botao()">
-                    </th>
-                    <th>
-                        <p>Digite o primeiro valor: <input type="number" id="valor1"></p>
-                        <p>Digite a operação: <input type="text" id="oper"></p>
-                        <p>Digite o segundo valor: <input type="number" id="valor2"></p>
-                        <p id="paragrafo2">Resultado</p>
-                        <input type="button" value="Calcular" onclick="botao2()">
-                    </th>
-                </tr>
-                <tr>
-                    <th>Calcular fatorial</th>
-                    <th>Verificar Idade</th>
-                </tr>
-                <tr>
-                    <th>
-                        <p>Digite o primeiro valor: <input type="number" id="valor"></p>
-                        <p id="paragrafo3">Resultado</p>
-                        <button onclick="fator()">Fatorar</button>
-                    </th>
-                    <th>
-                        <p>Digite o nome da pessoa: <input type="number" id="nome"></p>
-                        <p>Digite quantas vezes verificar a idade: <input type="number" id="limite"></p>
-                        <p id="paragrafo4">Resultado</p>
-                        <button onclick="validade()">Maioridade</button>
-                    </th>
-                </tr>
-                <tr>
-                    <th>Demonstração loop</td>
-                </tr>
-                <tr>
-                    <th>
-                        <p>Digite o primeiro valor: <input type="number" id="valor3"></p>
-                        <p>Digite o segundo valor: <input type="number" id="valor4"></p>
-                        <p id="paragrafo5">Valor da soma</p>
-                        <button onclick="soma()">ok</button>
-                        <p>Deseja sair? S/N <input type="text" id="sair"></p>
-                    </th>
-                </tr>
-            </table>
-            </div>
-        </main>    
+        <table>
+            <tr>
+                <th>Calculadora 1</th>
+                <th>Calculadora 2</th>
+            </tr>
+            <tr>
+                <td>
+                    <p>Digite o primeiro valor: <input type="number" id="valor1"></p>
+                    <p>Digite a operação: <input type="text" id="oper"></p>
+                    <p>Digite o segundo valor: <input type="number" id="valor2"></p>
+                    <p id="paragrafo1">Resultado</p>
+                    <input type="button" value="Calcular" onclick="botao()">
+                </td>
+                <td>
+                    <p>Digite o primeiro valor: <input type="number" id="valor1"></p>
+                    <p>Digite a operação: <input type="text" id="oper"></p>
+                    <p>Digite o segundo valor: <input type="number" id="valor2"></p>
+                    <p id="paragrafo2">Resultado</p>
+                    <input type="button" value="Calcular" onclick="botao2()">
+                </td>
+            </tr>
+            <tr>
+                <th>Calcular fatorial</th>
+                <th>Verificar Idade</th>
+            </tr>
+            <tr>
+                <td>
+                    <p>Digite o primeiro valor: <input type="number" id="valor"></p>
+                    <p id="paragrafo3">Resultado</p>
+                    <button onclick="fator()">Fatorar</button>
+                </td>
+                <td>
+                    <p>Digite o nome da pessoa: <input type="number" id="nome"></p>
+                    <p>Digite quantas vezes verificar a idade: <input type="number" id="limite"></p>
+                    <p id="paragrafo4">Resultado</p>
+                    <button onclick="validade()">Maioridade</button>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Demonstração loop</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p>Digite o primeiro valor: <input type="number" id="valor3"></p>
+                    <p>Digite o segundo valor: <input type="number" id="valor4"></p>
+                    <p id="paragrafo5">Valor da soma</p>
+                    <button onclick="soma()">ok</button>
+                    <p>Deseja sair? S/N <input type="text" id="sair"></p>
+                </td>
+            </tr>
+        </table>
     </body>
     <script src="../backEnd/calculadora.js"></script>
     <script src="../backEnd/fatorial.js"></script>
