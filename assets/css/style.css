@@ -5,8 +5,20 @@ table, th, td, tr{
     text-align: center;
 }
 table{
-    width: 80%;
+    width: 100%;
 }
 th{
-    background-color: 003876;
+    background-color: #0072BB;
+    color: white;
+}
+
+html {
+    font-size: 100%;
+}
+body {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-family: "Open sans", Helvetica, Arial, sans-serif;
+    color: #666666;
+    padding: 0;
 }
