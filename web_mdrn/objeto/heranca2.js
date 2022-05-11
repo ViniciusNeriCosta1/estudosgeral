@@ -33,7 +33,7 @@ const volvo = {
     }
 }
 
-Object.setPrototypeOf(ferrari, carro)
+Object.setPrototypeOf(ferrari, carro)//define a relação de protótipo
 Object.setPrototypeOf(volvo, carro)
 console.log(ferrari)
 console.log(volvo)
