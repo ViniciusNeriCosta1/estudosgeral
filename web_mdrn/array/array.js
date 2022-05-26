@@ -26,5 +26,5 @@ console.log(aprovados[1])
 console.log(aprovados[2])
 
 aprovados = ['Bia', 'Carlos', 'Ana']
-aprovados.splice(1, 2)//serve para remover adicionar e fazer os dois ao mesmo tempo, informando por qual indice começa e por qual indice finaliza
+aprovados.splice(1, 2, 'Elemento1', 'Elemento2')//serve para remover adicionar e fazer os dois ao mesmo tempo, para excluir informar por qual indice começa e por qual indice finaliza, para adicionar apenas informar o valor
 console.log(aprovados)
